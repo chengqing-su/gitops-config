@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hello-world-2
+spec:
+  containers:
+    - name: hello-world-2
+      image: chengqingsu/hello-world-express
